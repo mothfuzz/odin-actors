@@ -176,6 +176,7 @@ Iterator :: hm.Dynamic_Handle_Map_Iterator(hm.Dynamic_Handle_Map(Actor_Ptr, Hand
 make_iterator :: proc(s: ^Stage) -> Iterator {
     return hm.iterator_make(&s.actors)
 }
+
 iterate_untyped :: proc(it: ^Iterator) -> (^Actor, Handle, bool) {
     a, handle, ok := hm.iterate(it)
     return a.ptr, handle, ok
