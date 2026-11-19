@@ -1,5 +1,7 @@
 Parallel Actor Framework
 
+holds subtyped Actors, ticks in parallel, typed message handlers with direct send and pubsub
+
 core concepts:
 
 - Stage - main container for actors & all associated methods/data
