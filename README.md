@@ -8,7 +8,7 @@ core concepts:
 - Post_Office - embedded by Stage, contains subscriptions & messages
 - Actor - base type for your actors
 
-internally uses core's handle_map to map handles to Actors.
+internally uses core's handle_map to map handles to Actors
 
 basic usage:
 
